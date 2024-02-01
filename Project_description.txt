@@ -1,0 +1,2 @@
+The goal of this project is to take the point count data, that can be fed into a python script that can be run from command line.
+The script calculates the abundance, species richness and diversity index of each point, and then uses this to create mixed linear models for each value to determine how a treatment effected diversity within each point.

@@ -1,0 +1,62 @@
+==================== Model Summaries ====================
+
+
+
+==================== Abundance Model ====================
+
+         Mixed Linear Model Regression Results
+========================================================
+Model:             MixedLM Dependent Variable: Abundance
+No. Observations:  208     Method:             REML     
+No. Groups:        11      Scale:              12.1393  
+Min. group size:   18      Log-Likelihood:     -557.5400
+Max. group size:   19      Converged:          Yes      
+Mean group size:   18.9                                 
+--------------------------------------------------------
+              Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+--------------------------------------------------------
+Intercept     10.653    0.403 26.432 0.000  9.863 11.443
+Modified_Year -0.125    0.204 -0.612 0.540 -0.523  0.274
+Treatment      0.930    0.760  1.224 0.221 -0.559  2.419
+ID Var         0.609    0.169                           
+========================================================
+
+
+==================== Richness Model ====================
+
+            Mixed Linear Model Regression Results
+==============================================================
+Model:            MixedLM Dependent Variable: Species_richness
+No. Observations: 208     Method:             REML            
+No. Groups:       11      Scale:              7.5985          
+Min. group size:  18      Log-Likelihood:     -509.1689       
+Max. group size:  19      Converged:          Yes             
+Mean group size:  18.9                                        
+---------------------------------------------------------------
+                Coef.   Std.Err.    z     P>|z|  [0.025  0.975]
+---------------------------------------------------------------
+Intercept        9.206     0.311  29.640  0.000   8.597   9.815
+Modified_Year   -0.143     0.161  -0.888  0.375  -0.458   0.173
+Treatment        1.101     0.601   1.831  0.067  -0.078   2.279
+ID Var           0.327     0.125                               
+==============================================================
+
+
+==================== Diversity Model ====================
+
+            Mixed Linear Model Regression Results
+=============================================================
+Model:            MixedLM Dependent Variable: Diversity_Index
+No. Observations: 208     Method:             REML           
+No. Groups:       11      Scale:              0.1052         
+Min. group size:  18      Log-Likelihood:     -68.6780       
+Max. group size:  19      Converged:          Yes            
+Mean group size:  18.9                                       
+--------------------------------------------------------------
+               Coef.   Std.Err.    z     P>|z|  [0.025  0.975]
+--------------------------------------------------------------
+Intercept       2.132     0.032  66.592  0.000   2.069   2.194
+Modified_Year  -0.021     0.018  -1.154  0.248  -0.057   0.015
+Treatment       0.143     0.071   2.021  0.043   0.004   0.281
+ID Var          0.001     0.010                               
+=============================================================
